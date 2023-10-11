@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="menu.css" />
+    <title>test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">logo</a></li>
+        <li class="item"><a href="#">home</a></li>
+        <li class="item"><a href="#">about</a></li>
+        <li class="item"><a href="#">shop</a></li>
+        <li class="item button"><a href="#">login</a></li>
+        <li class="item button secondary"><a href="#">sign up</a></li>
+        <li class="toggle"><span class="bars"></span></li>
+      </ul>
+    </nav>
+    <main>
+      <a href="#" style="position: fixed; bottom: 0"
+        >https://www.youtube.com/watch?v=6pidsgeLLzE</a
+      >
+    </main>
+  </body>
+</html>
