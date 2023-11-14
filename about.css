@@ -84,23 +84,3 @@ a:hover {
   height: 75px;
   width: 50px;
 }
-.naam1 {
-  text-align: center;
-  padding-top: 100px;
-  background-color: black;
-  color: #385724;
-  font-size: 75px;
-}
-.naam2 {
-  text-align: center;
-  padding-top: 5px;
-  background-color: black;
-  color: #9b780f;
-  font-size: 70px;
-}
-.naamen {
-  background-color: black;
-}
-p {
-  padding-top: 1000px;
-}
