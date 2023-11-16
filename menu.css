@@ -105,41 +105,6 @@ p {
   top: -5px;
 }
 
-/*tablet*/
-@media all and (min-width: 468) {
-  .menu {
-    justify-content: center;
-  }
-  .logo {
-    flex: 1;
-  }
-  .item.button {
-    width: auto;
-    order: 1;
-    display: block;
-  }
-
-  .toggle {
-    order: 2;
-  }
-  .button a {
-    text-decoration: none;
-    padding: 7px 15px;
-    background: teal;
-    border: 1px solid #006d6d;
-    border-radius: 50em;
-  }
-  .button a:hover {
-    transition: 0.25s;
-  }
-  .naam1 {
-    font-size: 75px;
-  }
-  .naam2 {
-    font-size: 70px;
-  }
-}
-
 @media all and (min-width: 768px) {
   .item {
     display: block;
