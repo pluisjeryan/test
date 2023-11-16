@@ -44,14 +44,14 @@ a:hover {
   padding-top: 100px;
   background-color: black;
   color: #385724;
-  font-size: 50px;
+  font-size: 55px;
 }
 .naam2 {
   text-align: center;
   padding-top: 5px;
   background-color: black;
   color: #9b780f;
-  font-size: 45px;
+  font-size: 50px;
 }
 .naamen {
   background-color: black;
@@ -131,6 +131,12 @@ p {
   }
   .button a:hover {
     transition: 0.25s;
+  }
+  .naam1 {
+    font-size: 75px;
+  }
+  .naam2 {
+    font-size: 70px;
   }
 }
 
