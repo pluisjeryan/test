@@ -44,14 +44,14 @@ a:hover {
   padding-top: 100px;
   background-color: black;
   color: #385724;
-  font-size: 75px;
+  font-size: 50px;
 }
 .naam2 {
   text-align: center;
   padding-top: 5px;
   background-color: black;
   color: #9b780f;
-  font-size: 70px;
+  font-size: 45px;
 }
 .naamen {
   background-color: black;
@@ -59,7 +59,6 @@ a:hover {
 p {
   padding-top: 1000px;
 }
-
 /*mobile*/
 .menu {
   display: flex;
@@ -157,5 +156,11 @@ p {
   }
   .menu li.button {
     padding-right: 0;
+  }
+  .naam1 {
+    font-size: 75px;
+  }
+  .naam2 {
+    font-size: 70px;
   }
 }
